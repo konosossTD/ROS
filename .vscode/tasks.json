@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_build",
+			"task": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "catkin: build"
+		}
+	]
+}

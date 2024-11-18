@@ -1,0 +1,15 @@
+<launch>
+    <include file="$(find adambot)/launch/base_room.launch"/>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find adambot)/urdf/robot.urdf.xacro'" />
+    <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model" args=" -param robot_description -urdf -model adambot -z 0" />
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+    </node>
+
+
+
+    <!-- <node pkg="map_server" type="map_server" name="map_server" args="$(find adambot)/maps/gmapping.yaml"/> -->
+
+    <!--- Run rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find adambot)/config/adam.rviz" />
+</launch>
