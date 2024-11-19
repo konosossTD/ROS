@@ -5,7 +5,7 @@
     "python.analysis.extraPaths": [
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/may/Desktop/ROS/learn/src/explorer",
+    "cmake.sourceDirectory": "/home/may/Desktop/ROS/learn/src/orbslam",
    
     "files.exclude": {
         "**/devel*": true,
@@ -13,7 +13,9 @@
         "**/log*": true,
         "**/.catkin_tools": true,
         "**/.catkin_workspace": true,
-        "**/rospack_cache_*": true
+        "**/rospack_cache_*": true,
+        "**/install*": true
+
 
 
     },
@@ -24,5 +26,8 @@
         "**/.catkin_tools": true,
         "**/.catkin_workspace": true,
         "**/rospack_cache_*": true
+    },
+    "files.associations": {
+        "ostream": "cpp"
     }
 }

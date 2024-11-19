@@ -32,7 +32,7 @@
 
 
     <!-- Run map server -->
-    <node pkg="map_server" type="map_server" name="map_server" args="$(find adambot)/maps/map2.yaml"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find adambot)/maps/carto.yaml"/>
 
     <node pkg="amcl" type="amcl" name="amcl" output="screen">
       <!-- Publish scans from best pose at a max of 10 Hz -->

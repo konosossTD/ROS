@@ -1,0 +1,29 @@
+# Camera calibration parameters
+Camera.fx: 602.8045832860719
+Camera.fy: 603.5628833804434
+Camera.cx: 374.0872506791089
+Camera.cy: 335.8581290685513
+
+# Distortion coefficients
+Camera.k1: -0.06970632428900425
+Camera.k2: 0.1853704048038906
+Camera.p1: 0.0003575542815263582
+Camera.p2: 0.0008009201165591783
+Camera.k3: -0.1243560570465175
+
+# Camera resolution
+Camera.width: 640
+Camera.height: 480
+
+# Frame rate
+Camera.fps: 30.0
+
+# RGB image flag (set to 1 for RGB, 0 for BGR)
+Camera.RGB: 1
+
+# Camera model: pinhole or fisheye (use pinhole for standard cameras)
+Camera.Model: pinhole
+
+# Depth map (only for stereo or RGB-D cameras)
+# If using mono, leave these empty or commented out
+Stereo.Baseline: 0.0

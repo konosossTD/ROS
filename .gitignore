@@ -53,3 +53,9 @@ CATKIN_IGNORE
 .catkin_tools
 .catkin_workspaces
 rospacl_cache_*
+
+
+install_isolated/
+
+rospack_cache_13446420088359476910
+rospack_cache_12293686379949063038
